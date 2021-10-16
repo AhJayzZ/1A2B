@@ -1,5 +1,4 @@
 
-import Game_1A2B
 from GUI.GUI import *
 import sys
 

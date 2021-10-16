@@ -53,7 +53,7 @@ class Ui_GameGUI(object):
         self.log_list.setObjectName("log_list")
         self.answer_label = QtWidgets.QLabel(GameGUI)
         self.answer_label.setEnabled(True)
-        self.answer_label.setGeometry(QtCore.QRect(20, 190, 141, 33))
+        self.answer_label.setGeometry(QtCore.QRect(20, 190, 221, 33))
         font = QtGui.QFont()
         font.setPointSize(20)
         font.setBold(True)
