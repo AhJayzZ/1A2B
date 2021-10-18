@@ -35,7 +35,7 @@ class MainWindow(QtWidgets.QMainWindow,Ui_GameGUI):
         # BGM setting
         pygame.mixer.init()
         pygame.mixer.music.load('GUI/bgm/bgm_1A2B.mp3')
-        pygame.mixer.music.play(-1,120,0)
+        pygame.mixer.music.play(-1,0,0)
         pygame.mixer.music.set_volume(0.5)
 
         #Game object
