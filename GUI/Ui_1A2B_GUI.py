@@ -14,11 +14,17 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_GameGUI(object):
     def setupUi(self, GameGUI):
         GameGUI.setObjectName("GameGUI")
-        GameGUI.resize(484, 291)
+        GameGUI.resize(483, 288)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(GameGUI.sizePolicy().hasHeightForWidth())
+        GameGUI.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
         GameGUI.setFont(font)
+        GameGUI.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.result_label = QtWidgets.QLabel(GameGUI)
         self.result_label.setGeometry(QtCore.QRect(20, 20, 151, 50))
         font = QtGui.QFont()
