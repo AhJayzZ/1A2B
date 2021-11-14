@@ -19,10 +19,10 @@
 
 ## 成果 Result
 - 成功破關
-![](https://i.imgur.com/36xyYuf.png)
-
+   ![](https://i.imgur.com/36xyYuf.png)
+   
 - 輸入不合法字元或空白
-![](https://i.imgur.com/FzWezv8.png)    
-
+   ![](https://i.imgur.com/FzWezv8.png)
+   
 - 顯示答案
-![](https://i.imgur.com/lc0jhPc.png)
+   ![](https://i.imgur.com/lc0jhPc.png)
